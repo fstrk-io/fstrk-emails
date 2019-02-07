@@ -1,0 +1,88 @@
+<mjml>
+  <mj-head>
+    <mj-title>Welcome Fstrk.io</mj-title>
+    <mj-font name="Open Sans" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&subset=cyrillic"/>
+    <mj-style inline="inline">
+      .title,
+      .subtitle {
+      font-weight: 300;
+      }
+      .title {
+      font-size: 30px;
+      }
+      .subtitle {
+      font-size: 20px;
+      }
+      .text {
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 400;
+      }
+      .blue {
+      color: #2A3F54;
+      }
+      a,
+      a:hover,
+      .red {
+      color: #A91917;
+      }
+      .bold {
+      font-weight: bold;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-section background-color="#F5F5F5" full-width="full-width">
+      <mj-column>
+        <mj-image
+            width="300px"
+            align="left"
+            href="https://fstrk.io"
+            src="http://media.fstrk.io/a76b4b2b-999b-4e2c-aea9-9b7650f4ec5a.png"
+            alt="Fstrk.io logo full"
+        />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#FFFFFF" full-width="full-width">
+      <mj-column>
+        <mj-text font-family="'Open Sans', Helvetica, Arial, sans-serif">
+          <h1 class="title blue">👍 Ваша заявка принята</h1>
+          <p class="text blue">Здравствуйте, <span class="bold">{{offer.contact}}</span>!</p>
+          <p class="text blue">Информируем, что ваша заявка на создание аккаунта на платформе <span class="bold">Fasttrack: Bot as a Service</span> принята к рассмотрению.</p>
+          <p class="text blue">Срок рассмотрения заявки: <span class="bold">до 2-х рабочих дней</span>. В результате, по указанному вами номеру телефона и адресу электронной почты, с вами свяжется наш
+            менеджер для выяснения подробностей.</p>
+          <p class="text blue">Чтобы вы не скучали, предлагаем ознакомиться с интересными кейсами, которые были реализованы на нашей платформе, кликнув по ссылке ниже.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F5F5F5" full-width="full-width">
+      <mj-column>
+        <mj-text align="center" font-family="'Open Sans', Helvetica, Arial, sans-serif">
+          <div class="subtitle blue">Кейсы по ботам: <a href="http://fstrk.io/cases" class="red bold">http://fstrk.io/cases</a></div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#FFFFFF" full-width="full-width">
+      <mj-column>
+        <mj-text font-family="'Open Sans', Helvetica, Arial, sans-serif">
+          <p class="text blue">🔥 Внимание! Это письмо создано автоматически.</p>
+          <p class="text blue">Если у вас есть вопросы и/или предложения, то обратитесь, пожалуйста, в <span class="bold">Службу поддержки Fasttrack</span>.</p>
+          <p class="text blue">
+            E-mail: <a href="mailto:support@fstrk.io" class="bold">support@fstrk.io</a><br>
+            Время работы: <span class="bold">Пн-Пт, 09:00-19:00</span> (МСК)
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F5F5F5" full-width="full-width">
+      <mj-column>
+        <mj-image
+            width="100px"
+            href="https://fstrk.io"
+            src="http://media.fstrk.io/b85ea800-dab4-482c-90e3-1f4742f2d7f7.png"
+            alt="Fstrk.io logo short"
+        />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

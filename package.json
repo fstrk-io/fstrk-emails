@@ -1,0 +1,20 @@
+{
+    "name": "fstrk-emails",
+    "version": "1.0.0",
+    "description": "Fstrk.io email templates.",
+    "scripts": {
+        "build": "MJML_FILE=${MJML_FILE}; mjml ./src/templates/$MJML_FILE.mjml --o ./build/$MJML_FILE.html",
+        "watch": "MJML_FILE=${MJML_FILE}; mjml --w ./src/templates/$MJML_FILE.mjml --o ./build/$MJML_FILE.html"
+    },
+    "keywords": [
+        "email",
+        "templates",
+        "fstrk"
+    ],
+    "author": "Vic Shóstak",
+    "email": "vic_shostak@fstrk.io",
+    "license": "MIT",
+    "dependencies": {
+        "mjml": "^4.3.1"
+    }
+}
